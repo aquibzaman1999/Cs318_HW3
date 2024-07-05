@@ -4,7 +4,7 @@ const cors = require('cors');
 const path = require('path');
 const app = express();
 
-mongoose.connect('mongodb+srv://aquibzaman1999:Aquib2024@aquibapi.mrsif7j.mongodb.net/node-API?retryWrites=true&w=majority&appName=aquibAPI', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://aquibzaman1999:Aquib2024@aquibapi.mrsif7j.mongodb.net/books?retryWrites=true&w=majority&appName=aquibAPI', { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
 db.on('error', (error) => console.error(error));
 db.once('open', () => console.log('Connected to Database'));
