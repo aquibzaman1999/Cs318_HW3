@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:3000/api/books';
+const apiUrl = window.location.origin.includes('localhost') ? 'http://localhost:3000/api/books' : '/api/books';
 
 async function fetchBooks() {
     const response = await fetch(apiUrl);
