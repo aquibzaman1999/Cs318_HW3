@@ -23,7 +23,7 @@ async function fetchBooks() {
 }
 
 async function viewJSONProduct() {
-    window.location.href = 'https://node-api-tau-gray.vercel.app/products'
+    window.location.href = 'http://localhost:3000/api/books'
 }
 
 async function addBook() {
