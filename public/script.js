@@ -23,7 +23,7 @@ async function fetchBooks() {
 }
 
 async function viewJSONProduct() {
-    window.location.href = 'http://localhost:3000/api/books'
+    window.location.href = 'https://cs318-hw3.onrender.com/api/books'
 }
 
 async function addBook() {
