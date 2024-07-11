@@ -22,6 +22,10 @@ async function fetchBooks() {
     });
 }
 
+async function viewJSONProduct() {
+    window.location.href = 'https://node-api-tau-gray.vercel.app/products'
+}
+
 async function addBook() {
     const name = document.getElementById('name').value;
     const price = document.getElementById('price').value;
